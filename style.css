@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  gap: 2rem;
+}
+
+.flex--1-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  margin: 0 4rem;
+}
+
+.app-photo {
+  width: 45rem;
+}
+
+/* //////////////////////////////////// */
+/* LOGIN */
+/* //////////////////////////////////// */
+
+.logo-box {
+  margin: 2.5rem auto 3rem auto;
+}
+
+.instagram-logo {
+  width: 22rem;
+}
+
+.log-in {
+  border: 1px solid #dee2e6;
+  width: 38rem;
+  margin-top: 1rem;
+}
+
+.login-form input {
+  border: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  padding: 15px 10px;
+  font-size: 1.3rem;
+  margin-bottom: 7px;
+}
+
+.login-form input::placeholder {
+  color: #868e96;
+}
+
+.login-form input:focus {
+  border: 1px solid #adb5bd;
+  outline: none;
+}
+
+.login-btn {
+  margin-top: 7px;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #4dabf7;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.2s;
+}
+
+.login-btn:hover {
+  cursor: pointer;
+  background-color: #228be6;
+}
+
+.container {
+  padding: 5px;
+}
+
+.or {
+  position: relative;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 1.2rem;
+  color: #868e96;
+}
+
+.or::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  background-color: #dee2e6;
+  width: 40%;
+  height: 1px;
+  top: 50%;
+}
+
+.or::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  background-color: #dee2e6;
+  width: 40%;
+  height: 1px;
+  top: 50%;
+}
+
+.facebook-link {
+  margin: 0 auto 1rem auto;
+  border: none;
+  background-color: #fff;
+  color: #084985;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.6rem;
+  letter-spacing: 0.2px;
+  margin-top: 2rem;
+}
+
+.passwors-recovery {
+  color: #03396b;
+  margin: 2rem auto;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+/* //////////////////////////////////// */
+/* SIGN UP */
+/* //////////////////////////////////// */
+
+.sign-up {
+  display: flex;
+  margin-top: 1rem;
+  border: 1px solid #dee2e6;
+  width: 38rem;
+  height: 7rem;
+  font-size: 1.6rem;
+}
+
+.sign-up-link {
+  margin: auto;
+}
+
+.sign-up a {
+  text-decoration: none;
+  color: #1c7ed6;
+  font-weight: 600;
+}
+
+/* //////////////////////////////////// */
+/* APP STORE */
+/* //////////////////////////////////// */
+
+.get-app {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.store-links {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.app-icon {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  color: green;
+
+  right: 47.5%;
+  top: 34px;
+}
+
+.google-play-photo {
+  width: 14rem;
+  height: 5rem;
+}
+
+.microsoft-photo {
+  width: 14rem;
+  height: 5rem;
+}
+
+/* //////////////////////////////////// */
+/* FOOTER */
+/* //////////////////////////////////// */
+
+.tags {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  list-style: none;
+  gap: 1.3rem;
+}
+
+.link {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: #868e96;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.language-date {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.selector {
+  border: none;
+  color: #868e96;
+  cursor: pointer;
+  outline: none;
+}
+
+.date {
+  font-size: 1.3rem;
+  color: #868e96;
+}
